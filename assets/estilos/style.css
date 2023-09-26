@@ -1,0 +1,185 @@
+:root {
+	--main-color: #96e035;
+	--color-grey: #f4f4f4;
+	--titulo-size: 36px;
+}
+
+.hero-section {
+	background-image: url("https://inchurch.com.br/lp-funcionalidades/assets/imagens/background-hero.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 70px 0;
+}
+
+.hero-section .container {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-section .conteudo-direita {
+	margin-right: 40px;
+}
+
+.hero-section span {
+	color: #000;
+	font-size: 28px;
+}
+
+.hero-section h1 {
+	color: var(--main-color);
+}
+
+.hero-section a {
+	width: 50%;
+}
+
+iframe {
+	width: 560px;
+	height: 315px;
+	margin: 20px 0;
+	border-radius: 14px;
+	border: 10px solid #ffffff;
+}
+
+#ferramenta {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#ferramenta .conteudo-esquerda {
+	width: 40%;
+}
+
+#ferramenta .conteudo-direita {
+	width: 60%;
+}
+
+#passos, .passos2 {
+	background-color: #ecebeb;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.contain {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	margin: 40px auto;
+}
+
+#funcionalidade {
+	background-color: #000;
+	color: #fff;
+	padding: 100px 0;
+}
+
+#funcionalidade .conteudo-esquerda {
+	width: 40%;
+}
+
+#funcionalidade .container {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#funcionalidade .contain {
+	padding: 0;
+	margin-top: 0px;
+	max-width: 1200px;
+	display: none;
+}
+
+#funcionalidade .icon {
+	width: 20px;
+	margin-right: 10px;
+}
+
+#gestao {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-image: url("https://inchurch.com.br/lp-funcionalidades/assets/imagens/bg-gestao.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 60px;
+}
+
+#investimento {
+	background-image: url("https://inchurch.com.br/lp-funcionalidades/assets/imagens/bg-textura.png");
+	background-size: cover;
+	background-position: center;
+}
+
+#investimento .container,
+#filas .container {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#investimento .conteudo-direita,
+#investimento .conteudo-esquerda {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+#investimento .conteudo-direita {
+	text-align: center;
+	width: 40%;
+}
+
+#filas {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--main-color);
+}
+
+#filas .conteudo-direita,
+#filas .conteudo-esquerda {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: 40%;
+}
+
+#investimento .conteudo-esquerda img {
+	width: 400px;
+}
+
+#filas .conteudo-direita img {
+	width: 500px;
+}
+
+.icon-alerta1 {
+	width: 100px;
+	display: block;
+	align-self: flex-start;
+	margin-bottom: -50px;
+	margin-left: 15px;
+	position: relative;
+	z-index: 2;
+}
+
+.icon-alerta2 {
+	width: 100px;
+	display: block;
+	position: absolute;
+	align-self: flex-start;
+	margin-top: -45px;
+	margin-left: 15px;
+}
